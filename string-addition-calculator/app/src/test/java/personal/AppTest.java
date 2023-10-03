@@ -23,4 +23,14 @@ class AppTest {
         String[] inputBySplit = input.split(":|,");
         Assertions.assertThat(inputBySplit).isEqualTo(testInput);
     }
+    @Test
+    @DisplayName("제거 후 남은 숫자를 더한다.")
+    void add_numbers() {
+        String[] input = {"1", "2", "3"};
+        int resultNumber = 0;
+        for (String num : input) {
+            resultNumber += Integer.parseInt(num);
+        }
+        Assertions.assertThat(resultNumber).isEqualTo(6);
+    }
 }
