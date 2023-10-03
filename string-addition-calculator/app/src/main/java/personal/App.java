@@ -1,21 +1,21 @@
 package personal;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String input = scanner.next();
-        System.out.println(input);
+        Calculator calculator = new Calculator();
+        App app = new App();
 
-        String[] inputBySplit = input.split(":|,");
-        ArrayList<Integer> inputBySplitParseInt = new ArrayList<>();
-        for (String num : inputBySplit) {
-            inputBySplitParseInt.add(Integer.parseInt(num));
-        }
-        for (Integer n : inputBySplitParseInt) {
-            System.out.println(n);
-        }
+        String input = app.getInputValue();
+        String[] removed = calculator.removeSpecialCharacter(input);
+        Integer[] converted = calculator.convertStringArrToIntegerArr(removed);
+    }
+
+    public String getInputValue() {
+        Scanner in = new Scanner(System.in);
+        String input = in.next();
+        System.out.println(input);
+        return input;
     }
 }
