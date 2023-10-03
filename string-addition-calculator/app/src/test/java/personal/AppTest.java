@@ -1,6 +1,8 @@
 package personal;
 
 import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 import java.util.Scanner;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
@@ -32,5 +34,15 @@ class AppTest {
             resultNumber += Integer.parseInt(num);
         }
         Assertions.assertThat(resultNumber).isEqualTo(6);
+    }
+    @Test
+    @DisplayName("출력 테스트")
+    void output() {
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(byteArrayOutputStream));
+
+        Integer output = 6;
+        System.out.print(output);
+        Assertions.assertThat(byteArrayOutputStream.toString()).isEqualTo("6");
     }
 }
