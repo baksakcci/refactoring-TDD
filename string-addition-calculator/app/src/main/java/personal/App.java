@@ -10,6 +10,7 @@ public class App {
         String input = app.getInputValue();
         String[] removed = calculator.removeSpecialCharacter(input);
         Integer[] converted = calculator.convertStringArrToIntegerArr(removed);
+        Integer result = calculator.addNumber(converted);
     }
 
     public String getInputValue() {

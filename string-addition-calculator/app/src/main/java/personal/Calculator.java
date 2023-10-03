@@ -15,4 +15,13 @@ public class Calculator {
         }
         return convertedInputs;
     }
+
+    public int addNumber(Integer[] inputs) {
+        int result = 0;
+        for (Integer n : inputs) {
+            result += n;
+        }
+        System.out.println(result);
+        return result;
+    }
 }
