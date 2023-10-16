@@ -25,4 +25,11 @@ public class PasswordStrengthTest {
         Assertions.assertThat(password.verifyContainsNumber("3afdg6so9"))
             .isTrue();
     }
+
+    @Test
+    @DisplayName("비밀번호가_대문자를 포함하면_True를 반환한다")
+    void verify_password_contains_uppercase() {
+        Assertions.assertThat(password.verifyContainsUppercase("Ad24dfg90"))
+            .isTrue();
+    }
 }

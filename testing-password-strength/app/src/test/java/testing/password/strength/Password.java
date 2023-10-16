@@ -10,4 +10,8 @@ public class Password {
     public boolean verifyContainsNumber(String password) {
         return Pattern.matches("^.*[0-9].*$", password);
     }
+
+    public boolean verifyContainsUppercase(String password) {
+        return Pattern.matches("^.*[A-Z].*$", password);
+    }
 }
