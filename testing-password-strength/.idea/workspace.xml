@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bf0a184-edd8-49c2-980f-f62390ff18ae" name="Changes" comment="[#1] feat($PasswordStrengthTest): &quot;비밀번호 8글자 이상일 때 True 반환&quot; 테스트 추가">
+    <list default="true" id="3bf0a184-edd8-49c2-980f-f62390ff18ae" name="Changes" comment="[#2] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/Password.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/PasswordStrengthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/PasswordStrengthTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697462750991</updated>
       <workItem from="1697462752596" duration="8623000" />
-      <workItem from="1697477802502" duration="2417000" />
+      <workItem from="1697477802502" duration="3149000" />
     </task>
     <task id="LOCAL-00001" summary="[#0] init(testing-password-strength): init project">
       <option name="closed" value="true" />
@@ -223,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697478679926</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[#2] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가">
+      <option name="closed" value="true" />
+      <created>1697481620093</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697481620094</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +241,7 @@
     <MESSAGE value="[#1] feat($App, AppTest): 비밀번호 8글자 이상인지 검증하는 로직 추가" />
     <MESSAGE value="[#0-1] docs($build.gradle): add dependency 'org.assertj:assertj-core:3.22.0'" />
     <MESSAGE value="[#1] feat($PasswordStrengthTest): &quot;비밀번호 8글자 이상일 때 True 반환&quot; 테스트 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="[#1] feat($PasswordStrengthTest): &quot;비밀번호 8글자 이상일 때 True 반환&quot; 테스트 추가" />
+    <MESSAGE value="[#2] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="[#2] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가" />
   </component>
 </project>
