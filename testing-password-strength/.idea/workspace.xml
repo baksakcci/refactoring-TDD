@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bf0a184-edd8-49c2-980f-f62390ff18ae" name="Changes" comment="[#2] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가">
+    <list default="true" id="3bf0a184-edd8-49c2-980f-f62390ff18ae" name="Changes" comment="[#3] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/Password.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/PasswordStrengthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/PasswordStrengthTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,24 +34,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/testing-password-strength",
-    "last_opened_file_path": "C:/projects/refactoring-TDD/testing-password-strength",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/testing-password-strength&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/projects/refactoring-TDD/testing-password-strength&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="testing.password.strength" />
@@ -188,7 +189,8 @@
       <option name="presentableId" value="Default" />
       <updated>1697462750991</updated>
       <workItem from="1697462752596" duration="8623000" />
-      <workItem from="1697477802502" duration="3149000" />
+      <workItem from="1697477802502" duration="4147000" />
+      <workItem from="1697632067503" duration="2355000" />
     </task>
     <task id="LOCAL-00001" summary="[#0] init(testing-password-strength): init project">
       <option name="closed" value="true" />
@@ -230,7 +232,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697481620094</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[#2] refactor($PasswordStrengthTest): Password 객체 생성 코드를 필드값으로 옮김">
+      <option name="closed" value="true" />
+      <created>1697482088993</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697482088993</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[#3] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가">
+      <option name="closed" value="true" />
+      <created>1697482308632</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697482308632</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +260,8 @@
     <MESSAGE value="[#0-1] docs($build.gradle): add dependency 'org.assertj:assertj-core:3.22.0'" />
     <MESSAGE value="[#1] feat($PasswordStrengthTest): &quot;비밀번호 8글자 이상일 때 True 반환&quot; 테스트 추가" />
     <MESSAGE value="[#2] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="[#2] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가" />
+    <MESSAGE value="[#2] refactor($PasswordStrengthTest): Password 객체 생성 코드를 필드값으로 옮김" />
+    <MESSAGE value="[#3] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="[#3] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가" />
   </component>
 </project>

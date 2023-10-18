@@ -32,4 +32,15 @@ public class PasswordStrengthTest {
         Assertions.assertThat(password.verifyContainsUppercase("Ad24dfg90"))
             .isTrue();
     }
+
+    @Test
+    @DisplayName("비밀번호를 넣으면_검증과정을 거쳐_통과 갯수를 반환한다")
+    void verify_password_and_return_strength() {
+        Assertions.assertThat(password.verifyPassword("Tkdgur910"))
+            .isEqualTo(3);
+        Assertions.assertThat(password.verifyPassword("asdwro324"))
+            .isEqualTo(2);
+        Assertions.assertThat(password.verifyPassword("910"))
+            .isEqualTo(1);
+    }
 }

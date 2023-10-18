@@ -14,4 +14,18 @@ public class Password {
     public boolean verifyContainsUppercase(String password) {
         return Pattern.matches("^.*[A-Z].*$", password);
     }
+
+    public int verifyPassword(String password) {
+        int strength = 0;
+        if (verifyLength(password)) {
+            strength++;
+        }
+        if (verifyContainsNumber(password)) {
+            strength++;
+        }
+        if (verifyContainsUppercase(password)) {
+            strength++;
+        }
+        return strength;
+    }
 }
