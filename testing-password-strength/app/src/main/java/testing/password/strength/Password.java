@@ -19,15 +19,15 @@ public class Password {
         return strength.get(passCount);
     }
 
-    public boolean verifyLength(String password) {
+    private boolean verifyLength(String password) {
         return password.length() >= 8;
     }
 
-    public boolean verifyContainsNumber(String password) {
+    private boolean verifyContainsNumber(String password) {
         return Pattern.matches("^.*[0-9].*$", password);
     }
 
-    public boolean verifyContainsUppercase(String password) {
+    private boolean verifyContainsUppercase(String password) {
         return Pattern.matches("^.*[A-Z].*$", password);
     }
 
