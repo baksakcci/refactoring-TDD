@@ -5,13 +5,18 @@ import java.util.regex.Pattern;
 
 public class Password {
 
-    private final HashMap<Integer, PasswordStrength> convertToStrength = new HashMap<>();
+    private final HashMap<Integer, PasswordStrength> strength = new HashMap<>();
 
     public Password() {
-        convertToStrength.put(3, PasswordStrength.STRONG);
-        convertToStrength.put(2, PasswordStrength.NORMAL);
-        convertToStrength.put(1, PasswordStrength.WEAK);
-        convertToStrength.put(0, PasswordStrength.WEAK);
+        strength.put(3, PasswordStrength.STRONG);
+        strength.put(2, PasswordStrength.NORMAL);
+        strength.put(1, PasswordStrength.WEAK);
+        strength.put(0, PasswordStrength.WEAK);
+    }
+
+    public PasswordStrength verifyPassword(String password) {
+        int passCount = calculatePassCount(password);
+        return strength.get(passCount);
     }
 
     public boolean verifyLength(String password) {
@@ -26,7 +31,7 @@ public class Password {
         return Pattern.matches("^.*[A-Z].*$", password);
     }
 
-    public PasswordStrength verifyPassword(String password) {
+    private int calculatePassCount(String password) {
         int passCount = 0;
         if (verifyLength(password)) {
             passCount++;
@@ -37,6 +42,6 @@ public class Password {
         if (verifyContainsUppercase(password)) {
             passCount++;
         }
-        return convertToStrength.get(passCount);
+        return passCount;
     }
 }
