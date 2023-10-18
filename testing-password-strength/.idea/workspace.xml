@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bf0a184-edd8-49c2-980f-f62390ff18ae" name="Changes" comment="[#3] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가">
+    <list default="true" id="3bf0a184-edd8-49c2-980f-f62390ff18ae" name="Changes" comment="[#4] feat($PasswordStrengthTest): &quot;비밀번호를 넣으면_검증과정을 거쳐_통과 갯수를 반환&quot; 테스트 추가">
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/PasswordStrength.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/Password.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/PasswordStrengthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/PasswordStrengthTest.java" afterDir="false" />
@@ -23,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -190,7 +192,7 @@
       <updated>1697462750991</updated>
       <workItem from="1697462752596" duration="8623000" />
       <workItem from="1697477802502" duration="4147000" />
-      <workItem from="1697632067503" duration="2355000" />
+      <workItem from="1697632067503" duration="4170000" />
     </task>
     <task id="LOCAL-00001" summary="[#0] init(testing-password-strength): init project">
       <option name="closed" value="true" />
@@ -248,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697482308632</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[#4] feat($PasswordStrengthTest): &quot;비밀번호를 넣으면_검증과정을 거쳐_통과 갯수를 반환&quot; 테스트 추가">
+      <option name="closed" value="true" />
+      <created>1697634787476</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697634787476</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +272,7 @@
     <MESSAGE value="[#2] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가" />
     <MESSAGE value="[#2] refactor($PasswordStrengthTest): Password 객체 생성 코드를 필드값으로 옮김" />
     <MESSAGE value="[#3] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="[#3] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가" />
+    <MESSAGE value="[#4] feat($PasswordStrengthTest): &quot;비밀번호를 넣으면_검증과정을 거쳐_통과 갯수를 반환&quot; 테스트 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="[#4] feat($PasswordStrengthTest): &quot;비밀번호를 넣으면_검증과정을 거쳐_통과 갯수를 반환&quot; 테스트 추가" />
   </component>
 </project>

@@ -1,8 +1,19 @@
 package testing.password.strength;
 
+import java.util.HashMap;
 import java.util.regex.Pattern;
 
 public class Password {
+
+    private final HashMap<Integer, PasswordStrength> convertToStrength = new HashMap<>();
+
+    public Password() {
+        convertToStrength.put(3, PasswordStrength.STRONG);
+        convertToStrength.put(2, PasswordStrength.NORMAL);
+        convertToStrength.put(1, PasswordStrength.WEAK);
+        convertToStrength.put(0, PasswordStrength.WEAK);
+    }
+
     public boolean verifyLength(String password) {
         return password.length() >= 8;
     }
@@ -15,17 +26,17 @@ public class Password {
         return Pattern.matches("^.*[A-Z].*$", password);
     }
 
-    public int verifyPassword(String password) {
-        int strength = 0;
+    public PasswordStrength verifyPassword(String password) {
+        int passCount = 0;
         if (verifyLength(password)) {
-            strength++;
+            passCount++;
         }
         if (verifyContainsNumber(password)) {
-            strength++;
+            passCount++;
         }
         if (verifyContainsUppercase(password)) {
-            strength++;
+            passCount++;
         }
-        return strength;
+        return convertToStrength.get(passCount);
     }
 }
