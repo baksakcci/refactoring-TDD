@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bf0a184-edd8-49c2-980f-f62390ff18ae" name="Changes" comment="[#4-4] refactor($PasswordStrengthTest): passCount 메서드 따로 뺌, 변수명 수정, 메서드 위치 수정&#10;&#10;- passCount를 계산하는 calculatePassCount 메서드 추가&#10;- convertToStrength -&gt; strength로 수정&#10;- verifyPassword 메서드 위치 맨 위로 옮김">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/testing/password/strength/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/testing/password/strength/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/testing/password/strength/Password.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/PasswordStrength.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/testing/password/strength/PasswordStrength.java" afterDir="false" />
+    <list default="true" id="3bf0a184-edd8-49c2-980f-f62390ff18ae" name="Changes" comment="[#4-5] refactor($PasswordStrengthTest): main코드 옮김, 입력 및 출력 코드 추가&#10;&#10;- 이때까지 구현한 코드 main으로 옮김&#10;- main에 입력 및 출력 코드 추가 및 최종 테스트 완료">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/testing/password/strength/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/testing/password/strength/Password.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/PasswordStrengthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/PasswordStrengthTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +179,7 @@
       <updated>1697462750991</updated>
       <workItem from="1697462752596" duration="8623000" />
       <workItem from="1697477802502" duration="4147000" />
-      <workItem from="1697632067503" duration="8569000" />
+      <workItem from="1697632067503" duration="8946000" />
     </task>
     <task id="LOCAL-00001" summary="[#0] init(testing-password-strength): init project">
       <option name="closed" value="true" />
@@ -279,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697639988794</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[#4-5] refactor($PasswordStrengthTest): main코드 옮김, 입력 및 출력 코드 추가&#10;&#10;- 이때까지 구현한 코드 main으로 옮김&#10;- main에 입력 및 출력 코드 추가 및 최종 테스트 완료">
+      <option name="closed" value="true" />
+      <created>1697641353410</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1697641353410</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +304,7 @@
     <MESSAGE value="[#4-2] docs($PasswordStrengthTest): @DisplayName 수정&#10;- '통과 갯수' -&gt; '강도' 단어 수정" />
     <MESSAGE value="[#4-3] refactor($PasswordStrengthTest): @BeforeEach 사용&#10;&#10;- @BeforeEach를 사용하여 Password 객체 생성 독립성 유지" />
     <MESSAGE value="[#4-4] refactor($PasswordStrengthTest): passCount 메서드 따로 뺌, 변수명 수정, 메서드 위치 수정&#10;&#10;- passCount를 계산하는 calculatePassCount 메서드 추가&#10;- convertToStrength -&gt; strength로 수정&#10;- verifyPassword 메서드 위치 맨 위로 옮김" />
-    <option name="LAST_COMMIT_MESSAGE" value="[#4-4] refactor($PasswordStrengthTest): passCount 메서드 따로 뺌, 변수명 수정, 메서드 위치 수정&#10;&#10;- passCount를 계산하는 calculatePassCount 메서드 추가&#10;- convertToStrength -&gt; strength로 수정&#10;- verifyPassword 메서드 위치 맨 위로 옮김" />
+    <MESSAGE value="[#4-5] refactor($PasswordStrengthTest): main코드 옮김, 입력 및 출력 코드 추가&#10;&#10;- 이때까지 구현한 코드 main으로 옮김&#10;- main에 입력 및 출력 코드 추가 및 최종 테스트 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="[#4-5] refactor($PasswordStrengthTest): main코드 옮김, 입력 및 출력 코드 추가&#10;&#10;- 이때까지 구현한 코드 main으로 옮김&#10;- main에 입력 및 출력 코드 추가 및 최종 테스트 완료" />
   </component>
 </project>
