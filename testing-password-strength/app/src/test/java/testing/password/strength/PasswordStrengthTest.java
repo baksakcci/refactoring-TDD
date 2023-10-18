@@ -1,12 +1,18 @@
 package testing.password.strength;
 
 import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class PasswordStrengthTest {
 
-    private Password password = new Password();
+    private Password password;
+
+    @BeforeEach
+    void beforeAll() {
+        password = new Password();
+    }
 
     @Test
     @DisplayName("비밀번호가_8글자 이상이면_True를 반환한다")
