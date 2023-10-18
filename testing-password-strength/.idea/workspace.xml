@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3bf0a184-edd8-49c2-980f-f62390ff18ae" name="Changes" comment="[#4-5] refactor($PasswordStrengthTest): main코드 옮김, 입력 및 출력 코드 추가&#10;&#10;- 이때까지 구현한 코드 main으로 옮김&#10;- main에 입력 및 출력 코드 추가 및 최종 테스트 완료">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/testing/password/strength/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/testing/password/strength/Password.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/PasswordStrengthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/testing/password/strength/PasswordStrengthTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2Wqaq0tEQsmzfxCBW0I8Hcd2ph3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/testing-password-strength&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/projects/refactoring-TDD/testing-password-strength&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="testing.password.strength" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testing.password.strength.App" />
+      <module name="testing-password-strength.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testing.password.strength.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordStrengthTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;testing.password.strength.PasswordStrengthTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="PasswordStrengthTest.name" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;testing.password.strength.PasswordStrengthTest.name&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="PasswordStrengthTest.verify_8_length_more" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;testing.password.strength.PasswordStrengthTest.verify_8_length_more&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="PasswordStrengthTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-password-strength.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testing.password.strength.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testing.password.strength" />
+      <option name="MAIN_CLASS_NAME" value="testing.password.strength.PasswordStrengthTest" />
+      <option name="METHOD_NAME" value="name" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Gradle.PasswordStrengthTest" />
+        <item itemvalue="Gradle.PasswordStrengthTest.name" />
+        <item itemvalue="JUnit.PasswordStrengthTest.name" />
+        <item itemvalue="Gradle.PasswordStrengthTest.verify_8_length_more" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bf0a184-edd8-49c2-980f-f62390ff18ae" name="Changes" comment="" />
+      <created>1697462750991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697462750991</updated>
+      <workItem from="1697462752596" duration="8623000" />
+      <workItem from="1697477802502" duration="4147000" />
+      <workItem from="1697632067503" duration="8946000" />
+    </task>
+    <task id="LOCAL-00001" summary="[#0] init(testing-password-strength): init project">
+      <option name="closed" value="true" />
+      <created>1697462908606</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697462908606</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[#1] feat($App, AppTest): 비밀번호 8글자 이상인지 검증하는 로직 추가">
+      <option name="closed" value="true" />
+      <created>1697465776538</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697465776539</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[#0-1] docs($build.gradle): add dependency 'org.assertj:assertj-core:3.22.0'">
+      <option name="closed" value="true" />
+      <created>1697478003186</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697478003186</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[#1] feat($PasswordStrengthTest): &quot;비밀번호 8글자 이상일 때 True 반환&quot; 테스트 추가">
+      <option name="closed" value="true" />
+      <created>1697478679926</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697478679926</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[#2] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가">
+      <option name="closed" value="true" />
+      <created>1697481620093</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697481620094</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[#2] refactor($PasswordStrengthTest): Password 객체 생성 코드를 필드값으로 옮김">
+      <option name="closed" value="true" />
+      <created>1697482088993</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697482088993</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[#3] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가">
+      <option name="closed" value="true" />
+      <created>1697482308632</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697482308632</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[#4] feat($PasswordStrengthTest): &quot;비밀번호를 넣으면_검증과정을 거쳐_통과 갯수를 반환&quot; 테스트 추가">
+      <option name="closed" value="true" />
+      <created>1697634787476</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697634787476</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[#4-1] refactor($PasswordStrengthTest): if-else 줄이기, 변수 수정&#10;- passCount를 강함, 약함으로 출력하여 할 때, if-else 대신 Map을 사용&#10;- strength -&gt; passCount 변수명 수정">
+      <option name="closed" value="true" />
+      <created>1697636598801</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697636598801</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[#4-2] docs($PasswordStrengthTest): @DisplayName 수정&#10;- '통과 갯수' -&gt; '강도' 단어 수정">
+      <option name="closed" value="true" />
+      <created>1697637097259</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697637097259</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[#4-3] refactor($PasswordStrengthTest): @BeforeEach 사용&#10;&#10;- @BeforeEach를 사용하여 Password 객체 생성 독립성 유지">
+      <option name="closed" value="true" />
+      <created>1697638813157</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697638813157</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[#4-4] refactor($PasswordStrengthTest): passCount 메서드 따로 뺌, 변수명 수정, 메서드 위치 수정&#10;&#10;- passCount를 계산하는 calculatePassCount 메서드 추가&#10;- convertToStrength -&gt; strength로 수정&#10;- verifyPassword 메서드 위치 맨 위로 옮김">
+      <option name="closed" value="true" />
+      <created>1697639988794</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697639988794</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[#4-5] refactor($PasswordStrengthTest): main코드 옮김, 입력 및 출력 코드 추가&#10;&#10;- 이때까지 구현한 코드 main으로 옮김&#10;- main에 입력 및 출력 코드 추가 및 최종 테스트 완료">
+      <option name="closed" value="true" />
+      <created>1697641353410</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1697641353410</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[#0] init(testing-password-strength): init project" />
+    <MESSAGE value="[#1] feat($App, AppTest): 비밀번호 8글자 이상인지 검증하는 로직 추가" />
+    <MESSAGE value="[#0-1] docs($build.gradle): add dependency 'org.assertj:assertj-core:3.22.0'" />
+    <MESSAGE value="[#1] feat($PasswordStrengthTest): &quot;비밀번호 8글자 이상일 때 True 반환&quot; 테스트 추가" />
+    <MESSAGE value="[#2] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가" />
+    <MESSAGE value="[#2] refactor($PasswordStrengthTest): Password 객체 생성 코드를 필드값으로 옮김" />
+    <MESSAGE value="[#3] feat($PasswordStrengthTest): &quot;비밀번호가 0부터 9까지 숫자를 포함하면 True 반환&quot; 테스트 추가" />
+    <MESSAGE value="[#4] feat($PasswordStrengthTest): &quot;비밀번호를 넣으면_검증과정을 거쳐_통과 갯수를 반환&quot; 테스트 추가" />
+    <MESSAGE value="[#4-1] refactor($PasswordStrengthTest): if-else 줄이기, 변수 수정&#10;- passCount를 강함, 약함으로 출력하여 할 때, if-else 대신 Map을 사용&#10;- strength -&gt; passCount 변수명 수정" />
+    <MESSAGE value="[#4-2] docs($PasswordStrengthTest): @DisplayName 수정&#10;- '통과 갯수' -&gt; '강도' 단어 수정" />
+    <MESSAGE value="[#4-3] refactor($PasswordStrengthTest): @BeforeEach 사용&#10;&#10;- @BeforeEach를 사용하여 Password 객체 생성 독립성 유지" />
+    <MESSAGE value="[#4-4] refactor($PasswordStrengthTest): passCount 메서드 따로 뺌, 변수명 수정, 메서드 위치 수정&#10;&#10;- passCount를 계산하는 calculatePassCount 메서드 추가&#10;- convertToStrength -&gt; strength로 수정&#10;- verifyPassword 메서드 위치 맨 위로 옮김" />
+    <MESSAGE value="[#4-5] refactor($PasswordStrengthTest): main코드 옮김, 입력 및 출력 코드 추가&#10;&#10;- 이때까지 구현한 코드 main으로 옮김&#10;- main에 입력 및 출력 코드 추가 및 최종 테스트 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="[#4-5] refactor($PasswordStrengthTest): main코드 옮김, 입력 및 출력 코드 추가&#10;&#10;- 이때까지 구현한 코드 main으로 옮김&#10;- main에 입력 및 출력 코드 추가 및 최종 테스트 완료" />
+  </component>
+</project>
