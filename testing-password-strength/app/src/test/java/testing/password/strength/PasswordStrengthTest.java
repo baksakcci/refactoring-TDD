@@ -34,7 +34,7 @@ public class PasswordStrengthTest {
     }
 
     @Test
-    @DisplayName("비밀번호를 넣으면_검증과정을 거쳐_통과 갯수를 반환한다")
+    @DisplayName("비밀번호를 넣으면_검증과정을 거쳐_강도를 반환한다")
     void verify_password_and_return_strength() {
         Assertions.assertThat(password.verifyPassword("Tkdgur910"))
             .isEqualTo(PasswordStrength.STRONG);
