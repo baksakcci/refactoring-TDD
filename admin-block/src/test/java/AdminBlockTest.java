@@ -18,4 +18,11 @@ public class AdminBlockTest {
         Assertions.assertThat(admin.getStatus())
             .isEqualTo(Status.UNBLOCK);
     }
+
+    @Test
+    @DisplayName("차단하면_차단 상태로 바뀐다.")
+    void change_block_status() {
+        Assertions.assertThat(admin.blocking())
+            .isEqualTo(Status.BLOCK);
+    }
 }
