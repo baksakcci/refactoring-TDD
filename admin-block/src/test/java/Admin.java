@@ -9,7 +9,10 @@ public class Admin {
         return this.status;
     }
 
-    public Status blocking() {
+    public Status blocking() throws IllegalAccessException {
+        if (this.status == Status.UNBLOCK) {
+            throw new IllegalAccessException("이미 차단되었습니다.");
+        }
         this.status = Status.BLOCK;
         return this.status;
     }

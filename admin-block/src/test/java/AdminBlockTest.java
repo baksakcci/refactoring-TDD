@@ -19,10 +19,18 @@ public class AdminBlockTest {
             .isEqualTo(Status.UNBLOCK);
     }
 
+//    @Test
+//    @DisplayName("차단하면_차단 상태로 바뀐다.")
+//    void change_block_status() {
+//        Assertions.assertThat(admin.blocking())
+//            .isEqualTo(Status.BLOCK);
+//    }
+
     @Test
-    @DisplayName("차단하면_차단 상태로 바뀐다.")
-    void change_block_status() {
-        Assertions.assertThat(admin.blocking())
-            .isEqualTo(Status.BLOCK);
+    @DisplayName("차단할 때_이미 차단된 상태라면_예외 발생")
+    void name() {
+        Assertions.assertThatThrownBy(() -> admin.blocking())
+            .isInstanceOf(IllegalAccessException.class)
+            .hasMessageContaining("이미 차단");
     }
 }
