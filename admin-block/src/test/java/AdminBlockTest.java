@@ -28,7 +28,8 @@ public class AdminBlockTest {
 
     @Test
     @DisplayName("차단할 때_이미 차단된 상태라면_예외 발생")
-    void name() {
+    void block_already_blocked_exception() throws IllegalAccessException {
+        admin.blocking();
         Assertions.assertThatThrownBy(() -> admin.blocking())
             .isInstanceOf(IllegalAccessException.class)
             .hasMessageContaining("이미 차단");
