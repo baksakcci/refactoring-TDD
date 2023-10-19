@@ -1,0 +1,5 @@
+rootProject.name = 'refactoring-TDD'
+include 'java-baseball-precourse'
+include 'string-addition-calculator'
+include 'testing-password-strength'
+
