@@ -34,4 +34,11 @@ public class AdminBlockTest {
             .isInstanceOf(IllegalAccessException.class)
             .hasMessageContaining("이미 차단");
     }
+
+    @Test
+    @DisplayName("차단 해제하면_차단 해제 상태로 바뀐다.")
+    void change_unblock_status() {
+        Assertions.assertThat(admin.unblocking())
+            .isEqualTo(Status.UNBLOCK);
+    }
 }

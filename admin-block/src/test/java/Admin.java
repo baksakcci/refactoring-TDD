@@ -16,4 +16,9 @@ public class Admin {
         this.status = Status.BLOCK;
         return this.status;
     }
+
+    public Status unblocking() {
+        this.status = Status.UNBLOCK;
+        return this.status;
+    }
 }
