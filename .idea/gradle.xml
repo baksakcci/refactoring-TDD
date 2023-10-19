@@ -12,7 +12,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/test-module" />
+            <option value="$PROJECT_DIR$/java-baseball-precourse" />
+            <option value="$PROJECT_DIR$/string-addition-calculator" />
+            <option value="$PROJECT_DIR$/testing-password-strength" />
           </set>
         </option>
       </GradleProjectSettings>
